@@ -136,3 +136,4 @@ SELECT browser, COUNT(*) FROM pageviews_kafka GROUP BY browser;
 ![Output](./output12.png)
 ![Output](./output13.png)
 
+# Windowing
