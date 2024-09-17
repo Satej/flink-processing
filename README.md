@@ -64,3 +64,13 @@ set 'sql-client.execution.result-mode' = 'table';
 select count(*) AS `count` from pageviews;
 ```
 ![Output](./output4.png)
+
+# Viewing the page at http://localhost:8081
+
+![Output](./output5.png)
+![Output](./output6.png)
+
+```sql
+EXPLAIN select count(*) from pageviews;
+```
+![Output](./output7.png)
